@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+html {
+  font-family: "Piazolla";
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+.code {
+  display: flex;
+  flex-direction: column;
+  background: #212121;
+  padding: 10px;
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+.code span:nth-child(4),
+.code span:nth-child(5) {
+  margin-left: 30px;
+}
+.code span:nth-child(2) {
+  margin-bottom: 10px;
+}
+.code span {
+  margin: 2px;
+}
+
+h3 {
+  color: #212121;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+  background: #fff;
+  width: max-content;
+  box-shadow: 0 0 7px 0.5px #dadada;
+  letter-spacing: 1.2px;
+}
+
+html {
+  background: #fafafa;
 }
