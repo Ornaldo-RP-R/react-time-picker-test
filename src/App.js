@@ -1,11 +1,7 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import TimeInput from "react-time-picker-input"
-function TimeInputEx(){
-  const [dateEx1,setDateEx1]=useState('10:12')
-  return <TimeInput hour12Format value={dateEx1} onChange={(dateString)=>setDateEx1(dateString)}/>
-}
-function App(props) {
+function App() {
   const [dateEx1,setDateEx1]=useState('10:12')
   const [dateEx2,setDateEx2]=useState('10:12')
   const [dateEx3,setDateEx3]=useState('22:12')
