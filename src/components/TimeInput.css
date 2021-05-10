@@ -67,7 +67,6 @@
   height: 100%;
 }
 .react-time-input-picker .input-time-mobile input[type="time"] {
-  visibility: hidden;
   opacity: 0;
   position: absolute;
   left: 0;
