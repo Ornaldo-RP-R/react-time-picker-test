@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
-import TimeInput from "react-time-picker-input"
+import TimeInput from "./components/TimeInput"
 function App() {
   const [dateEx1,setDateEx1]=useState('10:12')
   const [dateEx2,setDateEx2]=useState('10:12')
@@ -8,7 +8,6 @@ function App() {
   return (
    <div>
      <h3>12 hour format Time Input  : </h3>
-     <input type="time"/>
      <TimeInput hour12Format value={dateEx1} onChange={(dateString)=>{setDateEx1(dateString)}}/>
       <span>
           <div className="code">
