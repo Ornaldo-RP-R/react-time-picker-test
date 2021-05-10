@@ -8,6 +8,7 @@ function App() {
   return (
    <div>
      <h3>12 hour format Time Input  : </h3>
+     <input type="time"/>
      <TimeInput hour12Format value={dateEx1} onChange={(dateString)=>{setDateEx1(dateString)}}/>
       <span>
           <div className="code">
