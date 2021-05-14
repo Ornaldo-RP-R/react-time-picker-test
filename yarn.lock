@@ -9402,10 +9402,10 @@ react-scripts@4.0.3:
   optionalDependencies:
     fsevents "^2.1.3"
 
-react-time-picker-input@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-time-picker-input/-/react-time-picker-input-1.5.0.tgz#6df316ea6902b3a1ab9a115844c653d2b1d18da1"
-  integrity sha512-ZrPlMlTXPoUdRPaUx0GEjU4typf+AP05lrDs96B34BignkAhS5YdHuJ0zVD9vzVbrcM1mRF0Za1uJGGmJcHpWQ==
+react-time-picker-input@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/react-time-picker-input/-/react-time-picker-input-1.5.1.tgz#48eecca12ba9758f14fabc0029880a27f920c2d8"
+  integrity sha512-cxKVmb3ww8jTpNgtjk2kfoJKg4wrsKyApmF+wVpoFYnh0jKRmGVYeHZ7eoqgyifS2Ln9l3J6XSKjgE1RnkA14w==
   dependencies:
     "@babel/polyfill" "^7.12.1"
     "@testing-library/jest-dom" "^5.11.4"
