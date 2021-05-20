@@ -11,7 +11,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "react-time-picker-input": "^1.6.12",
+    "react-time-picker-input": "^1.6.16",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -26,8 +26,8 @@
     "GitPush": "git push",
     "preBuild": "npm run GitPush",
     "Build": "react-scripts build",
-    "preDeploy": "npm run Build",
-    "Deploy": "gh-pages -d build"
+    "predeploy": "npm run Build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
