@@ -49,6 +49,8 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
   letter-spacing: 1.5px;
 }
 .code span:nth-child(4),
@@ -76,4 +78,14 @@ h3 {
 
 html {
   background: #fafafa;
+}
+
+body #root > div {
+  margin: 10px;
+}
+
+body #root > div > h3,
+body #root > div > .react-time-input-picker-wrapper,
+body #root > div .code {
+  margin-left: 10px;
 }
