@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
-import TimeInput from "./components/TimeInput";
+import TimeInput from "react-time-picker-input";
 
 function App() {
   const [dateEx1,setDateEx1]=useState('10:12')
