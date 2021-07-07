@@ -10,6 +10,7 @@ function App() {
    <div>
      <h3>12 hour format Time Input  : </h3>
      <TimeInput hour12Format value={dateEx1} onChange={(dateString)=>{setDateEx1(dateString)}}/>
+     <span>{dateEx1}</span>
       <span>
           <div className="code">
           <span>{`import React, { useEffect, useState } from "react";`}</span>  
