@@ -70,7 +70,7 @@ function App() {
       />
 
       <Example
-        title="Time Input allow delete :"
+        title="Disabled input"
         timeInputProps={{
           value: dateEx6,
           disabled: true,
