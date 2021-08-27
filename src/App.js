@@ -79,7 +79,7 @@ function App() {
           },
         }}
         stateString="const [dateEx6,setDateEx6]=useState('10:12')"
-        timeInputPropsString="value={dateEx6} allowDelete onChange={(dateString)=>setDateEx6(dateString)}"
+        timeInputPropsString="value={dateEx6} disabled onChange={(dateString)=>setDateEx6(dateString)}"
       />
     </div>
   );
