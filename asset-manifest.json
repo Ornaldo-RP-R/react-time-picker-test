@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-time-picker-test/static/css/main.aaf73f7d.chunk.css",
-    "main.js": "/react-time-picker-test/static/js/main.3310ae09.chunk.js",
-    "main.js.map": "/react-time-picker-test/static/js/main.3310ae09.chunk.js.map",
+    "main.js": "/react-time-picker-test/static/js/main.194f544c.chunk.js",
+    "main.js.map": "/react-time-picker-test/static/js/main.194f544c.chunk.js.map",
     "runtime-main.js": "/react-time-picker-test/static/js/runtime-main.1e316797.js",
     "runtime-main.js.map": "/react-time-picker-test/static/js/runtime-main.1e316797.js.map",
     "static/css/2.5a8bfb77.chunk.css": "/react-time-picker-test/static/css/2.5a8bfb77.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.5a8bfb77.chunk.css",
     "static/js/2.ae1189bb.chunk.js",
     "static/css/main.aaf73f7d.chunk.css",
-    "static/js/main.3310ae09.chunk.js"
+    "static/js/main.194f544c.chunk.js"
   ]
 }
