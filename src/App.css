@@ -1,36 +1,10 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
-  font-family: "Piazolla";
+  font-family: "Piazzolla";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html * {
+  font-family: "Piazzolla" !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,8 +13,35 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.codeicon {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: #282c34;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin: 0 !important;
+  padding: 0;
+  cursor: pointer;
+}
+
+.codeicon:hover {
+  background: #fff;
+  color: #212121;
+  transition: all 300ms ease-in-out;
+  will-change: contents;
+}
+
 .code {
   display: flex;
+  position: relative;
   flex-direction: column;
   background: #212121;
   padding: 10px;
@@ -49,43 +50,165 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 30px;
-  margin-top: 10px;
   letter-spacing: 1.5px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  transition: all 300ms ease-in-out;
+  will-change: contents;
 }
-.code span:nth-child(4),
-.code span:nth-child(5) {
-  margin-left: 30px;
-}
+
 .code span:nth-child(2) {
   margin-bottom: 10px;
 }
 .code span {
   margin: 2px;
+  margin-top: 0 !important;
+}
+
+svg {
+  cursor: pointer;
 }
 
 h3 {
   color: #212121;
   text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 10px;
-  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 20px;
+  margin: 0;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #a0a0a0,
+    #eeedee
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #a0a0a0,
+    #eeedee
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: max-content;
-  box-shadow: 0 0 7px 0.5px #dadada;
+  box-shadow: 0 0 4px 0.2px #737373;
   letter-spacing: 1.2px;
+  width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 html {
   background: #fafafa;
 }
-
-body #root > div {
-  margin: 10px;
+body {
+  margin: 0 !important;
 }
 
-body #root > div > h3,
-body #root > div > .react-time-input-picker-wrapper,
-body #root > div .code {
-  margin-left: 10px;
+.overflow-hidden {
+  overflow-x: hidden;
+  overflow: visible;
+}
+.inputcontainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+input {
+  font-size: 16px;
+  font-family: "Piazzolla";
+  font-weight: 600;
+}
+.code.minimized {
+  min-height: 40px;
+  padding: 0;
+}
+.code.minimized span {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.inputWrapper__dropdown {
+  z-index: 1;
+}
+.purple,
+.red,
+.gree,
+.gray,
+.orange,
+.yellow,
+.blue {
+  padding: 0 2px;
+  padding-bottom: 4px;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  font-size: 16px;
+}
+.purple {
+  color: #c775df;
+}
+.red {
+  color: #e26b73;
+}
+.gray {
+  color: #abb2c0;
+}
+.green {
+  color: #97c475;
+}
+.blue {
+  color: #5daef2;
+}
+.yellow {
+  color: #e4c075;
+}
+.orange {
+  color: #ce9961;
+}
+.margin-left-15 {
+  margin-left: 15px !important;
+}
+h1 {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  background: #eb5757; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eb5757,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eb5757,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.react-time-input-picker input {
+  min-width: 60px;
+}
+
+.example {
+  box-shadow: 0 0 13px 0.5px #737373;
+  margin: 15px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  transition: all 300ms ease-in-out;
+  will-change: contents;
+}
+.fullMinimized {
+  height: 34px;
+  overflow: hidden;
+}
+.padding-bottom-5 {
+  padding-bottom: 5px;
 }
