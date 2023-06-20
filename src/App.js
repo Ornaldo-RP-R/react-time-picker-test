@@ -123,7 +123,7 @@ const PropsTemplate = ({ number, features }) => {
       <span className="yellow">{`dateEx${number}`}</span>
       <span className="purple">{`}`}</span>
       {(features || []).map((feature) => {
-        return <span className="orange">{feature}</span>;
+        return <span className="orange" key={feature}>{feature}</span>;
       })}
       <span className="orange">{`onChange`}</span>
       <span className="blue">{`=`}</span>
