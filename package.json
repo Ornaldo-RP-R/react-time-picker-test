@@ -13,7 +13,7 @@
     "react-css-transition-replace": "^4.0.4",
     "react-dom": "^18.2.0",
     "react-scripts": "4.0.3",
-    "react-time-picker-input": "^2.1.31",
+    "react-time-picker-input": "^2.1.41",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
