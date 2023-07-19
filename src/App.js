@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
-import TimeInput from "react-time-picker-input";
+import TimeInput from "./lib/index";
 import "react-time-picker-input/dist/components/TimeInput.css"
 import AnimateHeight from "react-animate-height";
 
